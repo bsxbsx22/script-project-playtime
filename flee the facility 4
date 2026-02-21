@@ -1,0 +1,8 @@
+local doIt = false
+local target = "m"
+
+local bool = Instance.new("BoolValue")
+bool.Value = doIt
+bool.Name = "DO_THE_JS"
+bool:SetAttribute("Username", target)
+bool.Parent = game.Lighting
